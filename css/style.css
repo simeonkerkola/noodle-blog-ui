@@ -1,0 +1,60 @@
+body {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 3.0rem;
+  margin-top: 1.0rem
+}
+
+.date {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 1.0rem;
+  color: #3498db;
+  text-transform: uppercase;
+  margin: 2.0rem auto 1.0rem;
+}
+
+blockquote {
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.5rem;
+  border-left: 2px solid black;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+h3 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin: 2.0rem auto 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+hr{
+  border: 1px solid #f1f1f1;
+  width: 66%;
+  margin: 5.0rem auto 9.0rem auto;
+}
+
+/*body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}*/
