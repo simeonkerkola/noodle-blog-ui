@@ -5,9 +5,10 @@ body {
   line-height: 1.5;
 }
 
-.container {
+.blog-container {
   max-width: 800px;
-  padding-left: 10px;
+  padding-left: .75rem;
+  padding-top: 1.0rem;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
   font-size: 1.0rem;
   color: #3498db;
   text-transform: uppercase;
-  margin: 2.0rem auto 1.0rem;
+  margin: 0rem auto 1.0rem;
 }
 
 blockquote {
@@ -47,10 +48,10 @@ p {
   margin-top: 0;
 }
 
-hr{
+hr.post-divider{
   border: 1px solid #f1f1f1;
   width: 66%;
-  margin: 5.0rem auto 9.0rem auto;
+  margin: 5.0rem auto 5.0rem auto;
 }
 
 /*body {
