@@ -48,12 +48,35 @@ p {
   margin-top: 0;
 }
 
-hr.post-divider{
+hr.post-divider, hr.last-post{
   border: 1px solid #f1f1f1;
   width: 66%;
   margin: 5.0rem auto 5.0rem auto;
 }
+.footer {
+  color: #a1a1a1;
+  text-align: center;
+  width: 100%;
+  font-size: 0.75rem;
+  padding-bottom: 16px;
+}
 
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright {
+  padding: 0 .75rem 0 .75rem;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s, color 0.5s;
+  text-decoration: none;
+}
+
+.copyright:hover {
+    color: black;
+    border-bottom-color: black;
+}
 /*body {
   font-family: sans-serif;
   font-size: 16px;
