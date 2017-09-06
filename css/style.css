@@ -8,11 +8,13 @@ body {
 /*verdana*/
 
 .header {
-  max-width: 800px;
+  max-width: 500px;
   padding-left: .75rem;
+  line-height: 1.25;
 }
 
 h1 {
+  padding-top: 3rem;
   font-family: Raleway;
   font-weight: 800;
   font-size: 6.0rem;
