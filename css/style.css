@@ -1,9 +1,11 @@
 body {
   font-family: Open Sans;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 18px;
   line-height: 1.5;
 }
+
+/*verdana*/
 
 .blog-container {
   max-width: 800px;
@@ -11,7 +13,7 @@ body {
   padding-top: 1.0rem;
 }
 
-h1 {
+h2 {
   font-family: Raleway;
   font-weight: 900;
   font-size: 3.0rem;
@@ -22,8 +24,9 @@ h1 {
   font-family: Open Sans;
   font-weight: 700;
   font-size: 1.0rem;
-  color: #3498db;
+  color: #3d7194;
   text-transform: uppercase;
+  letter-spacing: .1rem;
   margin: 0rem auto 1.0rem;
 }
 
@@ -67,7 +70,7 @@ hr.post-divider, hr.last-post{
 }
 
 .copyright {
-  padding: 0 .75rem 0 .75rem;
+  padding: auto .4rem auto .4rem;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s, color 0.5s;
   text-decoration: none;
@@ -75,7 +78,7 @@ hr.post-divider, hr.last-post{
 
 .copyright:hover {
     color: black;
-    border-bottom-color: black;
+    border-bottom-color: #a1a1a1;
 }
 /*body {
   font-family: sans-serif;
