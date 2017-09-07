@@ -1,8 +1,7 @@
 body {
   font-family: Open Sans;
   font-weight: 100;
-  font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /*verdana*/
@@ -14,7 +13,7 @@ body {
 }
 
 h1 {
-  padding-top: 3rem;
+  padding-top: 0;
   font-family: Raleway;
   font-weight: 800;
   font-size: 6.0rem;
@@ -67,6 +66,7 @@ h3 {
 
 p {
   margin-top: 0;
+  font-size: 1.2rem;
 }
 
 hr.post-divider, hr.last-post{
