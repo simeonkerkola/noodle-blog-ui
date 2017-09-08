@@ -1,31 +1,44 @@
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 100;
   line-height: 1.6;
+  color: rgba(0,0,0,.75);
 }
 
 /*verdana*/
 
 .header {
-  max-width: 500px;
+  max-width: 600px;
   padding-left: .75rem;
   line-height: 1.25;
 }
 
-h1 a{
-  color: black;
+.header a{
+  color: rgba(158, 135, 69, 0.7);
   font-family: Raleway;
   font-weight: 800;
   font-size: 6.0rem;
   letter-spacing: 15px;
-  padding: 0;
+  padding: 0 20% 7px 0;
   margin: 0;
   text-decoration: none;
-  transition: border-bottom 0.4s, color ease 2s;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom ease 2s, color ease 2s;
 }
+
+/*
+#ffcf40
+#ffdc73
+#DDBB63
+#67531E
+#A77900
+
+#7e6a36
+rgba(158, 135, 69, 0.5);
+*/
 h1 a:hover {
-  color: rgba(158, 135, 69, 0.5);
-  border-bottom: 1px solid rgba(158, 135, 69, 1);
+  color: black;
+  border-bottom: 1px solid rgba(203, 172, 82, 1);
 }
 
 .blog-container {
@@ -35,6 +48,7 @@ h1 a:hover {
 }
 
 h2 {
+  color: rgba(0,0,0, .85);
   font-family: Raleway;
   font-weight: 900;
   font-size: 3.0rem;
@@ -42,7 +56,7 @@ h2 {
 }
 
 .date {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 1.0rem;
   color: #3d7194;
@@ -59,7 +73,7 @@ blockquote {
   font-style: italic;
   font-weight: 200;
   font-size: 1.5rem;
-  border-left: 2px solid black;
+  border-left: 2px solid rgba(0,0,0,.75);
   margin-left: 20px;
   padding-left: 20px;
 }
@@ -108,28 +122,39 @@ hr.post-divider, hr.last-post{
 
 /* TODO - nice gradiant bottom border and transition
 .copyright{
-  padding: 0 .2rem;
-  border-bottom: 1px solid transparent;
-  -webkit-transition: background 0.5s, color 0.5s;
+padding: 0 .2rem;
+border-bottom: 1px solid transparent;
+-webkit-transition: background 0.5s, color 0.5s;
 -moz-transition: background 0.5s, color 0.5s;
 -o-transition: background 0.5s, color 0.5s;
 -ms-transition: background 0.5s, color 0.5s;
-  transition: background 0.5s ease, color 0.5s;
-  text-decoration: none;
+transition: background 0.5s ease, color 0.5s;
+text-decoration: none;
 }
 
 .copyright:hover {
-  color: black;
-  background:
-    linear-gradient(
-      to left,
-      rgba(255, 255, 255, 1),
-      rgba(161,161,161, 1),
-      rgba(161,161,161, 1),
-      rgba(255, 255, 255, 1)
-    )
-    center
-    bottom
-    no-repeat;
-  background-size:120% 1px;
-  */
+color: black;
+background:
+linear-gradient(
+to left,
+rgba(255, 255, 255, 1),
+rgba(161,161,161, 1),
+rgba(161,161,161, 1),
+rgba(255, 255, 255, 1)
+)
+center
+bottom
+no-repeat;
+background-size:120% 1px;
+*/
+
+
+@media (max-width: 1000px) and (min-width: 600px){
+  * {
+    font-size: 1.2rem;
+  }
+
+  .blog-container {
+    max-width: 900px;
+  }
+}
