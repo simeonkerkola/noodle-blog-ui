@@ -1,5 +1,7 @@
 # Noodle Blog UI
 
+**Live demo: https://noodle-blog.herokuapp.com/**
+
 A very simple aesthetic blog UI/boilerplate.
 Inspired by Hanamaru Udon noodle soups.
 
