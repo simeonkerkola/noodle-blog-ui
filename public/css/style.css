@@ -2,7 +2,11 @@ body {
   font-family: "Open Sans";
   font-weight: 100;
   line-height: 1.6;
-  color: rgba(0,0,0,.75);
+  color: rgba(0,0,0,.8);
+}
+
+a {
+  color: black;
 }
 
 /*verdana*/
