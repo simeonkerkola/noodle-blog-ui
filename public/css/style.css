@@ -23,7 +23,7 @@ a {
   font-weight: 800;
   font-size: 6.0rem;
   letter-spacing: 15px;
-  padding: 0 20% 7px auto;
+  padding: 0 0 7px auto;
   margin: 0;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -97,6 +97,10 @@ p {
   font-size: 1.25rem;
 }
 
+span {
+  font-size: 1.0em;
+}
+
 hr.post-divider, hr.last-post{
   border: 1px solid #f1f1f1;
   width: 66%;
@@ -157,32 +161,42 @@ background-size:120% 1px;
 
 
 
-@media screen and (max-width: 1000px) {
-  * {
-    font-size: 1.20rem;
-  }
 
-  .blog-container {
-    max-width: 900px;
-  }
-}
 
 @media only screen and (max-device-width: 1000px) and (-webkit-device-pixel-ratio: 2) {
   * {
-    font-size: 1.5rem;
+    font-size: .8rem;
+    overflow-x: hidden;
   }
 
-  .blog-container {
-    max-width: 900px;
-  }
-}
-
-@media only screen and (max-device-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-  * {
-    font-size: 2.0rem;
+  .header a{
+    font-size: 6.0rem;
   }
 
-  .blog-container {
-    max-width: 900px;
+  blockquote {
+    font-size: 1.85rem;
   }
-}
+
+  p {
+    font-size: 1.7rem;
+  }
+
+  @media only screen and (max-device-width: 700px) and (-webkit-device-pixel-ratio: 2) {
+    * {
+      font-size: .7rem;
+      overflow-x: hidden;
+    }
+
+    .header a{
+      font-size: 4.5rem;
+    }
+
+    blockquote {
+      font-size: 1.85rem;
+    }
+
+    p {
+      font-size: 1.7rem;
+    }
+
+  }
