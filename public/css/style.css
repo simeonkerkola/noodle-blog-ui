@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.75);
   padding-left: 25px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 /* line 15, ../../sass/style.scss */
@@ -23,7 +23,7 @@ a {
 .header {
   max-width: 600px;
   line-height: 1.25;
-  margin: 20px;
+  margin: 20px 0;
   padding-top: 1.5rem;
 }
 /* line 27, ../../sass/style.scss */
@@ -224,7 +224,7 @@ background-size:120% 1px;
 @media only screen and (max-device-width: 700px) and (-webkit-device-pixel-ratio: 2) {
   /* line 209, ../../sass/style.scss */
   html {
-    font-size: .6rem;
+    font-size: .65rem;
     overflow-x: hidden;
   }
 
