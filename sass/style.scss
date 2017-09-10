@@ -1,49 +1,46 @@
-/* line 3, ../../sass/style.scss */
+$margin-top: 1.5rem;
+
 * {
   margin: 0;
   padding: 0;
 }
-
-/* line 7, ../../sass/style.scss */
 body {
   font-family: "San Francisco", sans-serif, arial;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(0,0,0,.75);
   padding-left: 25px;
 }
 
-/* line 14, ../../sass/style.scss */
 a {
   color: black;
 }
 
 /*verdana*/
-/* line 20, ../../sass/style.scss */
+
 .header {
   max-width: 600px;
   line-height: 1.25;
   margin: 20px 0;
-}
-/* line 25, ../../sass/style.scss */
-.header a {
-  color: rgba(158, 135, 69, 0.7);
-  font-family: Raleway;
-  font-weight: 800;
-  font-size: 6.0rem;
-  letter-spacing: 15px;
-  padding: 0 0 7px 0;
-  margin: 0;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  -webkit-transition: border-bottom ease 2s, color ease 2s;
-  -moz-transition: border-bottom ease 2s, color ease 2s;
-  -o-transition: border-bottom ease 2s, color ease 2s;
-  transition: border-bottom ease 2s, color ease 2s;
-}
-/* line 40, ../../sass/style.scss */
-.header a:hover {
-  color: black;
-  border-bottom: 1px solid #cbac52;
+
+  a{
+    color: rgba(158, 135, 69, 0.7);
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 6.0rem;
+    letter-spacing: 15px;
+    padding: 0 0 7px 0;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom ease 2s, color ease 2s;
+    -moz-transition: border-bottom ease 2s, color ease 2s;
+    -o-transition: border-bottom ease 2s, color ease 2s;
+    transition: border-bottom ease 2s, color ease 2s;
+
+    &:hover {
+      color: black;
+      border-bottom: 1px solid rgba(203, 172, 82, 1);
+
       /*
       #ffcf40
       #ffdc73
@@ -54,20 +51,20 @@ a {
       #7e6a36
       rgba(158, 135, 69, 0.5);
       */
+    }
+  }
 }
 
-/* line 59, ../../sass/style.scss */
+
 .blog-container {
   max-width: 800px;
   padding-top: 1.0rem;
 }
 
-/* line 64, ../../sass/style.scss */
 .post-header-group {
   padding-bottom: 15px;
 }
 
-/* line 68, ../../sass/style.scss */
 .date {
   font-family: "arial";
   font-weight: bold;
@@ -77,9 +74,8 @@ a {
   letter-spacing: .1rem;
 }
 
-/* line 77, ../../sass/style.scss */
 h2 {
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0,0,0, .85);
   font-family: Raleway;
   font-weight: 700;
   font-size: 3.0rem;
@@ -87,32 +83,28 @@ h2 {
   margin-bottom: 0;
 }
 
-/* line 86, ../../sass/style.scss */
 h3 {
   font-family: Raleway;
   font-weight: 300;
   font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0,0,0, .45);
 }
 
-/* line 93, ../../sass/style.scss */
 .post {
-  margin-top: 1rem;
+  margin-top: 1.0rem
 }
 
-/* line 97, ../../sass/style.scss */
 blockquote {
   font-family: Raleway;
   font-style: italic;
   font-weight: 300;
   font-size: 1.5rem;
-  border-left: 2px solid rgba(0, 0, 0, 0.55);
+  border-left: 2px solid rgba(0,0,0,.55);
   margin-left: 20px;
-  margin-top: 1.5rem;
+  margin-top: $margin-top;
   padding-left: 20px;
 }
 
-/* line 108, ../../sass/style.scss */
 h4 {
   font-family: Raleway;
   font-weight: 700;
@@ -120,49 +112,43 @@ h4 {
   margin: 2.0rem auto 0;
 }
 
-/* line 115, ../../sass/style.scss */
 p {
-  margin-top: 1.5rem;
+  margin-top: $margin-top;
   font-size: 1.25rem;
 }
 
-/* line 120, ../../sass/style.scss */
 span {
   font-size: 1.0em;
 }
 
-/* line 124, ../../sass/style.scss */
-hr.post-divider, hr.last-post {
+hr.post-divider, hr.last-post{
   border: 1px solid #f1f1f1;
   width: 66%;
   margin: 5.0rem auto 5.0rem auto;
 }
-
-/* line 129, ../../sass/style.scss */
 .footer {
   color: #a1a1a1;
   text-align: center;
   width: 100%;
   font-size: 0.75rem;
   padding-bottom: 16px;
-}
-/* line 136, ../../sass/style.scss */
-.footer a {
-  text-decoration: none;
-  color: inherit;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
-/* line 142, ../../sass/style.scss */
-.copyright {
+.copyright{
   padding: 0 .2rem;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s, color 0.5s;
   text-decoration: none;
-}
-/* line 148, ../../sass/style.scss */
-.copyright:hover {
-  color: black;
-  border-bottom-color: #a1a1a1;
+
+  &:hover {
+    color: black;
+    border-bottom-color: #a1a1a1;
+  }
 }
 
 /* TODO - nice gradiant bottom border and transition
@@ -192,42 +178,38 @@ bottom
 no-repeat;
 background-size:120% 1px;
 */
+
+
 @media only screen and (max-device-width: 1000px) and (-webkit-device-pixel-ratio: 2) {
-  /* line 184, ../../sass/style.scss */
   html {
     font-size: .7rem;
     overflow-x: hidden;
   }
 
-  /* line 189, ../../sass/style.scss */
-  .header a {
+  .header a{
     font-size: 6.0rem;
   }
 
-  /* line 193, ../../sass/style.scss */
-  h3 {
-    font-size: 2rem;
-  }
+h3 {
+  font-size: 2rem;
+}
 
-  /* line 197, ../../sass/style.scss */
   blockquote {
     font-size: 1.85rem;
   }
 
-  /* line 201, ../../sass/style.scss */
   p {
     font-size: 1.7rem;
   }
 }
+
 @media only screen and (max-device-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-  /* line 207, ../../sass/style.scss */
   html {
     font-size: .6rem;
     overflow-x: hidden;
   }
 
-  /* line 212, ../../sass/style.scss */
-  .header a {
+  .header a{
     font-size: 4.5rem;
   }
 }
