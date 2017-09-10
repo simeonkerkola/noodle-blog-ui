@@ -19,14 +19,14 @@ a {
 }
 
 /*verdana*/
-/* line 21, ../../sass/style.scss */
+/* line 23, ../../sass/style.scss */
 .header {
   max-width: 600px;
   line-height: 1.25;
   margin: 20px 0;
   padding-top: 1.5rem;
 }
-/* line 27, ../../sass/style.scss */
+/* line 29, ../../sass/style.scss */
 .header a {
   color: rgba(158, 135, 69, 0.7);
   font-family: Raleway;
@@ -42,7 +42,7 @@ a {
   -o-transition: border-bottom ease 2s, color ease 2s;
   transition: border-bottom ease 2s, color ease 2s;
 }
-/* line 42, ../../sass/style.scss */
+/* line 44, ../../sass/style.scss */
 .header a:hover {
   color: black;
   border-bottom: 1px solid #cbac52;
@@ -58,18 +58,18 @@ a {
       */
 }
 
-/* line 61, ../../sass/style.scss */
+/* line 63, ../../sass/style.scss */
 .blog-container {
   max-width: 800px;
   padding-top: 1.0rem;
 }
 
-/* line 66, ../../sass/style.scss */
+/* line 68, ../../sass/style.scss */
 .post-header-group {
   padding-bottom: 15px;
 }
 
-/* line 70, ../../sass/style.scss */
+/* line 72, ../../sass/style.scss */
 .date {
   font-family: "arial";
   font-weight: bold;
@@ -79,7 +79,7 @@ a {
   letter-spacing: .1rem;
 }
 
-/* line 79, ../../sass/style.scss */
+/* line 81, ../../sass/style.scss */
 h2 {
   color: rgba(0, 0, 0, 0.85);
   font-family: Raleway;
@@ -89,7 +89,7 @@ h2 {
   margin-bottom: 0;
 }
 
-/* line 88, ../../sass/style.scss */
+/* line 90, ../../sass/style.scss */
 h3 {
   font-family: Raleway;
   font-weight: 300;
@@ -97,12 +97,12 @@ h3 {
   color: rgba(0, 0, 0, 0.45);
 }
 
-/* line 95, ../../sass/style.scss */
+/* line 97, ../../sass/style.scss */
 .post {
   margin-top: 1rem;
 }
 
-/* line 99, ../../sass/style.scss */
+/* line 101, ../../sass/style.scss */
 blockquote {
   font-family: Raleway;
   font-style: italic;
@@ -114,7 +114,7 @@ blockquote {
   padding-left: 20px;
 }
 
-/* line 110, ../../sass/style.scss */
+/* line 112, ../../sass/style.scss */
 h4 {
   font-family: Raleway;
   font-weight: 700;
@@ -122,25 +122,25 @@ h4 {
   margin: 2.0rem auto 0;
 }
 
-/* line 117, ../../sass/style.scss */
+/* line 119, ../../sass/style.scss */
 p {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 
-/* line 122, ../../sass/style.scss */
+/* line 124, ../../sass/style.scss */
 span {
   font-size: 1.0em;
 }
 
-/* line 126, ../../sass/style.scss */
+/* line 128, ../../sass/style.scss */
 hr.post-divider, hr.last-post {
   border: 1px solid #f1f1f1;
   width: 66%;
   margin: 5.0rem auto 5.0rem auto;
 }
 
-/* line 131, ../../sass/style.scss */
+/* line 133, ../../sass/style.scss */
 .footer {
   color: #a1a1a1;
   text-align: center;
@@ -148,20 +148,20 @@ hr.post-divider, hr.last-post {
   font-size: 0.75rem;
   padding-bottom: 16px;
 }
-/* line 138, ../../sass/style.scss */
+/* line 140, ../../sass/style.scss */
 .footer a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 144, ../../sass/style.scss */
+/* line 146, ../../sass/style.scss */
 .copyright {
   padding: 0 .2rem;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s, color 0.5s;
   text-decoration: none;
 }
-/* line 150, ../../sass/style.scss */
+/* line 152, ../../sass/style.scss */
 .copyright:hover {
   color: black;
   border-bottom-color: #a1a1a1;
@@ -195,40 +195,40 @@ no-repeat;
 background-size:120% 1px;
 */
 @media only screen and (max-device-width: 1000px) and (-webkit-device-pixel-ratio: 2) {
-  /* line 186, ../../sass/style.scss */
+  /* line 188, ../../sass/style.scss */
   html {
     font-size: .7rem;
     overflow-x: hidden;
   }
 
-  /* line 191, ../../sass/style.scss */
+  /* line 193, ../../sass/style.scss */
   .header a {
     font-size: 6.0rem;
   }
 
-  /* line 195, ../../sass/style.scss */
+  /* line 197, ../../sass/style.scss */
   h3 {
     font-size: 2rem;
   }
 
-  /* line 199, ../../sass/style.scss */
+  /* line 201, ../../sass/style.scss */
   blockquote {
     font-size: 1.85rem;
   }
 
-  /* line 203, ../../sass/style.scss */
+  /* line 205, ../../sass/style.scss */
   p {
     font-size: 1.7rem;
   }
 }
 @media only screen and (max-device-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-  /* line 209, ../../sass/style.scss */
+  /* line 211, ../../sass/style.scss */
   html {
     font-size: .65rem;
     overflow-x: hidden;
   }
 
-  /* line 214, ../../sass/style.scss */
+  /* line 216, ../../sass/style.scss */
   .header a {
     font-size: 4.5rem;
   }
