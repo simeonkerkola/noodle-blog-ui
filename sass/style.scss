@@ -14,8 +14,9 @@ body {
 
 a {
   color: black;
-
-  $visited: black;
+  &:visited {
+    color: black;
+  }
 }
 
 /*verdana*/
