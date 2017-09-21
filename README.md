@@ -10,4 +10,5 @@ Just include message and link at copyright footer anywhere on your page.
 Thanks!
 
 **Installation:**
-Just copy html and css from /public folder
+Just copy html from /public folder
+and Sass from /sass folder
