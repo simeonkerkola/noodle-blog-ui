@@ -11,4 +11,4 @@ Thanks!
 
 **Installation:**
 Just copy html from /public folder
-and Sass from /sass folder
+and Scss from /scss folder
