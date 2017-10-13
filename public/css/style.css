@@ -42,15 +42,14 @@ a:visited {
   margin: 0;
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  -webkit-transition: border-bottom ease 2s, color ease 2s;
-  -moz-transition: border-bottom ease 2s, color ease 2s;
-  -o-transition: border-bottom ease 2s, color ease 2s;
-  transition: border-bottom ease 2s, color ease 2s;
+  -webkit-transition: border-bottom ease .6s;
+  -moz-transition: border-bottom ease .6s;
+  -o-transition: border-bottom ease .6s;
+  transition: border-bottom ease .6s;
 }
 /* line 46, ../../scss/style.scss */
 .header a:hover {
-  color: black;
-  border-bottom: 1px solid #cbac52;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.55);
       /*
       #ffcf40
       #ffdc73
@@ -63,18 +62,18 @@ a:visited {
       */
 }
 
-/* line 65, ../../scss/style.scss */
+/* line 64, ../../scss/style.scss */
 .blog-container {
   max-width: 800px;
   padding-top: 1.0rem;
 }
 
-/* line 70, ../../scss/style.scss */
+/* line 69, ../../scss/style.scss */
 .post-header-group {
   padding-bottom: 15px;
 }
 
-/* line 74, ../../scss/style.scss */
+/* line 73, ../../scss/style.scss */
 .date {
   font-family: "arial";
   font-weight: bold;
@@ -84,17 +83,16 @@ a:visited {
   letter-spacing: .1rem;
 }
 
-/* line 83, ../../scss/style.scss */
+/* line 82, ../../scss/style.scss */
 h2 {
   color: rgba(0, 0, 0, 0.85);
   font-family: Raleway;
   font-weight: 700;
   font-size: 2.5rem;
-  margin-top: .75rem;
-  margin-bottom: 0;
+  margin: .75rem 0 1rem 0;
 }
 
-/* line 92, ../../scss/style.scss */
+/* line 90, ../../scss/style.scss */
 h3 {
   font-family: Raleway;
   font-weight: 300;
@@ -102,12 +100,12 @@ h3 {
   color: rgba(0, 0, 0, 0.45);
 }
 
-/* line 99, ../../scss/style.scss */
+/* line 97, ../../scss/style.scss */
 .post {
   margin-top: 1rem;
 }
 
-/* line 103, ../../scss/style.scss */
+/* line 101, ../../scss/style.scss */
 blockquote {
   font-family: Raleway;
   font-style: italic;
@@ -119,7 +117,7 @@ blockquote {
   padding-left: 20px;
 }
 
-/* line 114, ../../scss/style.scss */
+/* line 112, ../../scss/style.scss */
 h4 {
   font-family: Raleway;
   font-weight: 700;
@@ -127,25 +125,25 @@ h4 {
   margin: 2.0rem auto 0;
 }
 
-/* line 121, ../../scss/style.scss */
+/* line 119, ../../scss/style.scss */
 p {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 
-/* line 126, ../../scss/style.scss */
+/* line 124, ../../scss/style.scss */
 span {
   font-size: 1.0em;
 }
 
-/* line 130, ../../scss/style.scss */
+/* line 128, ../../scss/style.scss */
 hr.post-divider, hr.last-post {
   border: 1px solid #f1f1f1;
   width: 66%;
   margin: 5.0rem auto 5.0rem auto;
 }
 
-/* line 135, ../../scss/style.scss */
+/* line 133, ../../scss/style.scss */
 .footer {
   color: #a1a1a1;
   text-align: center;
@@ -153,20 +151,20 @@ hr.post-divider, hr.last-post {
   font-size: 0.75rem;
   padding-bottom: 16px;
 }
-/* line 142, ../../scss/style.scss */
+/* line 140, ../../scss/style.scss */
 .footer a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 148, ../../scss/style.scss */
+/* line 146, ../../scss/style.scss */
 .copyright {
   padding: 0 .2rem;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s, color 0.5s;
   text-decoration: none;
 }
-/* line 154, ../../scss/style.scss */
+/* line 152, ../../scss/style.scss */
 .copyright:hover {
   color: black;
   border-bottom-color: #a1a1a1;
@@ -200,40 +198,40 @@ no-repeat;
 background-size:120% 1px;
 */
 @media only screen and (max-device-width: 1000px) and (-webkit-device-pixel-ratio: 2) {
-  /* line 190, ../../scss/style.scss */
+  /* line 188, ../../scss/style.scss */
   html {
     font-size: .7rem;
     overflow-x: hidden;
   }
 
-  /* line 195, ../../scss/style.scss */
+  /* line 193, ../../scss/style.scss */
   .header a {
     font-size: 6.0rem;
   }
 
-  /* line 199, ../../scss/style.scss */
+  /* line 197, ../../scss/style.scss */
   h3 {
     font-size: 2rem;
   }
 
-  /* line 203, ../../scss/style.scss */
+  /* line 201, ../../scss/style.scss */
   blockquote {
     font-size: 1.85rem;
   }
 
-  /* line 207, ../../scss/style.scss */
+  /* line 205, ../../scss/style.scss */
   p {
     font-size: 1.7rem;
   }
 }
 @media only screen and (max-device-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-  /* line 213, ../../scss/style.scss */
+  /* line 211, ../../scss/style.scss */
   html {
     font-size: .65rem;
     overflow-x: hidden;
   }
 
-  /* line 218, ../../scss/style.scss */
+  /* line 216, ../../scss/style.scss */
   .header a {
     font-size: 4.5rem;
   }
