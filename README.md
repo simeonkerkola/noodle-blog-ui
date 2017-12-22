@@ -1,6 +1,6 @@
 # Noodle Blog UI
 
-**Live demo: https://noodle-blog.herokuapp.com/**
+**Live demo: https://codepen.io/Sssmi/pen/wpWMXa**
 
 A very simple aesthetic blog UI/boilerplate.
 Inspired by Hanamaru Udon noodle soups.
@@ -10,5 +10,4 @@ Just include message and link at copyright footer anywhere on your page.
 Thanks!
 
 **Installation:**
-Just copy html from /public folder
-and Scss from /scss folder
+Just copy html and Scss from /scss folder
